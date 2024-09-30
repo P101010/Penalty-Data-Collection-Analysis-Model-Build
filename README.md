@@ -1,6 +1,4 @@
-# Harry-Kane---Penalty-Data-collection-and-Analysis
-
-# Harry Kane Penalty Project
+# Harry Kane Penalty Data Collection, Analysis and Model Build
 
 ## Overview
 
@@ -28,14 +26,19 @@ To simulate various penalty scenarios and predict outcomes, a Jupyter Notebook (
 
 The project includes pre-trained models located in the `model` folder:
 
-- **KNN Model (n=7):** A K-Nearest Neighbors model that has been optimized for predicting penalty outcomes with `n=7` neighbors. Better genralized to the trained dataset.
-- **KNN Model (n=8):** An additional K-Nearest Neighbors model with `n=8` neighbors for comparative analysis. The model with the highest accuracy.
+- **KNN Model (n=7):** A K-Nearest Neighbors model that has been optimized for predicting penalty outcomes with `n=7` neighbors. This model has shown better generalization to the trained dataset.
+- **KNN Model (n=8):** An additional K-Nearest Neighbors model with `n=8` neighbors for comparative analysis. This model achieved the highest accuracy during evaluation.
 
 ## Getting Started
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Open the Jupyter Notebook and execute the cells to generate synthetic data, load the models and predict outcomes.
+3. Open the Jupyter Notebook and execute the cells to generate synthetic data, load the models, and predict outcomes.
+
+## Additional Reading
+
+- [Part 1: Analysis of Harry Kane's Penalty Kicks](https://medium.com/@praneithranganath10/beyond-the-kick-a-data-driven-decomposition-of-penalties-b42bfc811b03)
+- [Part 2: Model Build](https://www.praneith.com/post1/)
 
 ## Conclusion
 
